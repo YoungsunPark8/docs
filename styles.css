@@ -1,0 +1,183 @@
+/* This stylesheet is where to add styles for your Shakespeare Play */
+/*We usually add something general for the body*/
+body {
+  font-family: verdana, sans-serif;
+  color: purple;
+  background-image: url("images/tempestBack.jpg");
+  background-attachment: fixed;
+}
+
+/*Here follows the class names that you may have*/
+/*You may have more if you added styles in InDesign*/
+/*You need to add the style attributes between the curly brackets*/
+
+section.cover {
+text-align:center;
+width:70%;
+margin: 20px auto;
+}
+
+img.coverimage {
+max-width:80%;
+padding:20px;
+}
+
+img.image1, .image2 {
+width:90%;
+padding:20px;
+margin:20px auto;
+border:2px solid white;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+}
+
+img.image {
+width:100%;
+padding:20px;
+}
+
+.body {
+	background-color: #d8e6f3;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.act {
+margin: 0 auto;
+text-align: center;
+font-family: times, serif;
+font-size: 48px;
+color: #1b2fe9;
+margin-top: 80px;
+margin-bottom: 80px;
+border: 1px solid white;
+background-color: #d8e6f3;
+width: 40%;
+}
+
+.charactername {
+  color: #3e1ee3;
+  font-size: 12pt;
+  margin-left: 30px;
+  font-family: times, serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.dramatishead {
+  text-align: center;
+  font-family:Times, serif;
+  font-size: 38px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.character {
+font-family: times, serif;
+color: #3e1ee3;
+font-size: 14pt;
+font-weight: bold;
+margin-left: 30px;
+position: relative;
+top: 38px;
+}
+
+.character_role {
+  color: #1e88e3;
+  font-size: 12pt;
+}
+
+.play_location {
+  font-family:Times, serif;
+  color: navy;
+  font-size: 14pt;
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.firstscene {
+  font-family:Times, serif;
+  text-align: center;
+  font-size: 38px;
+  color: #1b9ee9;
+}
+
+.pose_indents {
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.location {
+  font-family:Times, serif;
+  text-align: center;
+  color: navy;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+.stagedirection, .stage_directions1 {
+  font-family:Times, serif;
+  text-align: center;
+  color: navy;
+  font-size: 14pt;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.character_song {
+  font-family: times, serif;
+  color: #4f8a86;
+  font-size: 14pt;
+  padding-left: 130px;
+}
+
+.verseline, .verseline_space {
+margin-top:0px;
+margin-bottom:2px;
+padding-left: 130px;
+}
+
+.scene {
+  font-family:Times, serif;
+  text-align: center;
+  font-size: 38px;
+  color: #1b9ee9;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.prose, .pose_indents {
+  margin-top:0;
+  margin-bottom:0;
+  padding-left: 130px;
+}
+
+.songs {
+  font-family:Arial, serif;
+  color: #4f8a86;
+  font-size: 12pt;
+  font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 130px;
+}
+
+.stage_action {
+  font-family:Times, serif;
+  text-align: center;
+  color: navy;
+  font-size: 14pt;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.dramatis, .play {
+width:70%;
+margin:20px auto;
+border:2px solid gray;
+background-color: white;
+}
